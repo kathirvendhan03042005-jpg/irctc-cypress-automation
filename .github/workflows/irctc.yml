@@ -50,7 +50,7 @@ jobs:
     - name: Install Node.js and npm
       uses: actions/setup-node@v4
       with:
-        node-version: '20.12.2'
+        node-version: '24.12.2'
 
     - name: Installing Cypress & Running IRCTC Cypress Automation
       run: |
