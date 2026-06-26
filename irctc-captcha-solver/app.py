@@ -55,15 +55,15 @@ if __name__ == "__main__":
       description="Run the OCR extraction server."
   )
   parser.add_argument(
-      "--host 0.0.0.0",
+      "0.0.0.0",
       type=str,
       default="0.0.0.0",
       help="Host address to run the server on (default: 0.0.0.0)",
   )
   parser.add_argument(
-      "--port 5001",
+      "5001",
       type=int,
-      default=5000,
+      default=5001,
       help="Port to run the server on (default: 5001)",
   )
   args = parser.parse_args()
